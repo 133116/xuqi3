@@ -20,13 +20,3 @@ print(x)
 print( "随机数 0-1 是：" )
 x = random.random()
 print(x)
-# 产生  a 到 b 之间的随机浮点数，区间可以不是整数
-a = 3.3
-b = 10.7
-c = random.uniform(a,b)
-print("在 %f - %f 之间的随机数是：%f" %(a, b, c) )
-
-# 从序列中随机选取一个元素
-d = "tomorrow"
-e = random.choice(d)
-print("在字符串 %s 中随机挑选的字符是：%s" %(d, e)  )
